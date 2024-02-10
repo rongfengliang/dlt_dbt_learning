@@ -1,0 +1,12 @@
+mydlt_dbt:
+  outputs:
+    dev:
+      dbname: postgres
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: postgres_data_dbt
+      threads: 2
+      type: postgres
+      user: postgres
+  target: dev
